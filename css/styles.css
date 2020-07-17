@@ -9,9 +9,8 @@ body{
 .navbar{
     background-color: #e3f2fd;  
 }
-.nav-item{
-    color: blue;
-}
+
+
 /* general Styling */
 hr{
     border: #eaf6f6 6px;

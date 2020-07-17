@@ -1,0 +1,35 @@
+body{
+   background-color: #e3f2fd; 
+    background-size: cover;
+    
+}
+
+hr{
+    background: #fff;
+}
+
+
+a{
+    color: #11999e;
+    font-family: 'Montserrat', sans-serif;
+    margin: 10px 20px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #eaf6f6;
+    text-decoration: none;
+}
+
+.contact-form{
+    font-family: 'Montserrat', serif;
+    font-weight: bold;
+    background: rgba(0, 0, 0, 0.6);
+    color: #66bfbf;
+    background-color: #e3f2fd; 
+    margin-top: 100px;
+    padding: 20px;
+    box-shadow: 0px 0px 10px 3px grey;
+}
+
