@@ -5,14 +5,14 @@ body{
    
 }
 
-
+/* Navbar */
 .navbar{
     background-color: #e3f2fd;  
 }
 .nav-item{
     color: blue;
 }
-
+/* general Styling */
 hr{
     border: #eaf6f6 6px;
     border-bottom: none;
@@ -56,8 +56,9 @@ a{
 
 a:hover{
     color: #eaf6f6;
+    text-decoration: none;
 }
-
+/* Intro */
 .top-container{
     background-color: #e4f9f5;
     position: relative;
@@ -89,27 +90,18 @@ a:hover{
 .middle-container{
     margin: 100px 0;
 }
-
-.conatact-message{
-    width: 40%;
-    margin: 40px auto 60px;
+.pro{
+    text-decoration: underline;
 }
+
+
 .bottom-container{
     background-color: #66bfbf;
     padding: 50px 0 20px;
     
+    
 }
-.footer-link{
-    text-align: center;
-    line-height: 3;
-}
-
-.footer-pp{
-    color: #eaf6f6;
-    font-size: 0.75rem;
-    padding: 20px 0px;
-}
-
+ /* SKILLS... */
 .skill-row{
     width: 50%;
     margin: 100px auto 100px auto;
@@ -128,15 +120,32 @@ a:hover{
     margin-left: 30px;
     border-radius: 100%;
 }
-.pro{
-    text-decoration: underline;
-}
 
 .intro{
     width: 30%;
     margin: auto;
 }
+.conatact-message{
+    width: 40%;
+    margin: 40px auto 60px;
+}
 
+/* Footer */
+.footer-link{
+    text-align: center;
+    line-height: 3;
+    
+}
+
+.footer-pp{
+    color: #eaf6f6;
+    font-size: 0.75rem;
+    padding: 20px 0px;
+}
+
+
+
+/* Button gotten from css3buttongenerator.com */
 .btn {
     background: #11cdd4;
     background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
