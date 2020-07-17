@@ -1,0 +1,37 @@
+body{
+    background-color: #e3f2fd;
+}
+
+a{
+    color: #11999e;
+    font-family: 'Montserrat', sans-serif;
+    margin: 10px 20px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #eaf6f6;
+    text-decoration: none;
+}
+.row{
+    border: 1px solid;
+    margin: 7% 15%;
+}
+
+.card{
+    background-color: #e3f2fd;
+}
+
+.grid-pic{
+    border-radius: 100%;
+    width: 200px;
+    margin: 7% 15%;
+    filter: grayscale(100%);
+    -webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;  
+}
+.grid-pic:hover{
+    filter: none;
+
+}
