@@ -5,44 +5,7 @@ body{
    
 }
 
-/* Navbar */
-.navbar{
-    background-color: #e3f2fd;  
-}
 
-
-/* general Styling */
-hr{
-    border: #eaf6f6 6px;
-    border-bottom: none;
-    width: 4%;
-    margin: 100px auto;
-}
-
-h1{
-    font-size: 5.625rem;
-    
-    font-family: 'Sacramento', cursive;
-    margin: 50px auto 0 auto;
-    color: #66bfbf;
-}
-
-h2{
-    font-size: 2.5rem;
-    font-family: 'Montserrat', sans-serif;
-    color: #66bfbf;
-    font-weight: normal;
-    padding-bottom: 10px;
-}
-
-h3{
-    font-family: 'Montserrat', sans-serif;
-    color: #11999e;
-   
-}
- p{
-    line-height: 2;
- }
 
 
 a{
@@ -57,117 +20,119 @@ a:hover{
     color: #eaf6f6;
     text-decoration: none;
 }
-/* Intro */
-.top-container{
-    background-color: #e4f9f5;
-    position: relative;
-    padding-top: 100px;
+
+
+
+
+body {
+    /*color: #fff;*/
+    text-align: center;
+    text-shadow: 0 1px 0px rgba(0, 0, 0, .5);
 }
 
-.profile2{
+header {
+    font-family: 'Bree Serif', serif;
+    opacity: 0.3;
+    padding-bottom: 15px;
+}
+
+.circles img {
+    width: 170px;
+    height: 170px;
     border-radius: 100%;
+    background: url(/images/landing-page.jpg) no-repeat;
     -webkit-transition: .3s ease-in-out;
-	transition: .3s ease-in-out;  
+    transition: 0.3 ease-in-out;
 }
 
-.profile2:hover{
+.circles img:hover{
+
     filter: grayscale(100%);
 }
-
-.top-cloud{
-    position: absolute;
-    right: 300px;
-    top: 40px;
+.circles {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    transition: opacity .25s ease-in-out;
 }
 
-.bottom-cloud{
-    position: absolute;
-    left: 300px;
-    bottom: 250px;
+.btn-get-resume .btn {
+    font-size: 1.3rem;
+    opacity: .75;
+    transition: opacity .25s ease-in-out;
+    color: rgb(33, 33, 139);
+    font-family: sans-serif;
 }
 
-.middle-container{
-    margin: 100px 0;
-}
-.pro{
-    text-decoration: underline;
+.btn-get-resume:hover {
+    opacity: 0.5;
 }
 
-
-.bottom-container{
-    background-color: #66bfbf;
-    padding: 50px 0 20px;
-    
-}
- /* SKILLS... */
-.skill-row{
-    width: 50%;
-    margin: 100px auto 100px auto;
-    text-align: left;
-    
-}
-.skill-img{
-    width: 25%;
-    float: left;
-    margin-right: 30px;
-}
-
-.lap-img{
-    width: 25%;
-    float: right;
-    margin-left: 30px;
-    border-radius: 100%;
-}
-
-.intro{
-    width: 30%;
-    margin: auto;
-}
-.conatact-message{
-    width: 40%;
-    margin: 40px auto 60px;
-}
-
-/* Footer */
-.footer-link{
-    text-align: center;
-    line-height: 3;
-    
-}
-
-.footer-pp{
-    color: #eaf6f6;
-    font-size: 0.75rem;
-    padding: 20px 0px;
-}
-
-
-
-/* Button gotten from css3buttongenerator.com */
 .btn {
-    background: #11cdd4;
-    background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
-    background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
-    background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
-    background-image: -o-linear-gradient(top, #11cdd4, #11999e);
-    background-image: linear-gradient(to bottom, #11cdd4, #11999e);
-    -webkit-border-radius: 8;
-    -moz-border-radius: 8;
-    border-radius: 8px;
-    font-family: 'Montserrat',sans-serif;
-    color: #ffffff;
-    font-size: 20px;
-    padding: 10px 20px 10px 20px;
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-weight: normal;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    cursor: pointer;
+    user-select: none;
+    background-color: rgb(242, 243, 247);
+    border: 2px dotted;
+    border-radius: 4px;
     text-decoration: none;
-  }
-  
-  .btn:hover {
-    background: #30e3cb;
-    background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
-    background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
-    background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
-    background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
-    background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+}
+
+h3 {
+    font-size: 1.75rem;
     text-decoration: none;
-  }
- 
+}
+
+h3:hover {
+    text-decoration: none;
+}
+
+h4 {
+    font-size: 1.5rem;
+    color: rgb(33, 33, 139);
+
+}
+
+i {
+    padding: 15px;
+    font-family: sans-serif;
+    color: rgb(33, 33, 139);
+
+}
+
+.links li a .i {
+    font-size: 75px;
+    text-decoration: none;
+    height: 10px;
+    margin-top: 1rem;
+
+
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.links li {
+    display: inline;
+    padding: 0;
+    margin: 2 rem;
+    white-space: nowrap;
+    list-style-type: none;
+    opacity: 0.2;
+    padding: 1 rem;
+}
+
+.links li:hover {
+    opacity: 2;
+}
